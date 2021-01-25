@@ -6,4 +6,4 @@ main.o:
 src/shape.o:
 	gcc -I./include/ -c src/shape.c -o src/shape.o
 clean:
-	rm main.o src/shape.o bin/shape 
+	rm *.o src/*.o bin/* 
